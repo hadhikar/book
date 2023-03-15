@@ -47,7 +47,7 @@ namespace BulkyBook.Migrations
 
                     b.HasKey("CategoryId");
 
-                    b.ToTable("category", (string)null);
+                    b.ToTable("category");
                 });
 #pragma warning restore 612, 618
         }
